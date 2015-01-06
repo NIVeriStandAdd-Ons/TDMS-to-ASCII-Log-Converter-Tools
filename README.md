@@ -1,5 +1,7 @@
 ## TDMS to ASCII Log Converter Tools ##
 
+**Important note:** this has marginal usefulness beyond NI VeriStand 2012 because NI VeriSTand 2012 and later can log directly to ASCII.
+
 **TDMS to ASCII Log Converter Tools** is source for a stand alone exe and NI VeriStand service whose primary goal is to convert TDMS log files to human readable text.
 
 The executable converts a directory (sub directories optionally included) of NI VeriStand TDMS data logs in binary format (*.TDMS) to human readable text format. The exact format used in NI VeriStand 2009's text format.
@@ -27,6 +29,8 @@ No builds are available
 ### Quality, Limitations ###
 
 This IP was developed for a specific use case in 2010 and has not been tested since. It has not been updated for the new NI VeriStand stimulus profiles. Therefore, this has some usefulness for legacy project but needs upgrades to be useful for new projects.
+
+**Important note:** this has marginal usefulness beyond NI VeriStand 2012 because NI VeriSTand 2012 and later can log directly to ASCII.
 
 ### License ###
 
